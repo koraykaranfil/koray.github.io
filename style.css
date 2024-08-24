@@ -22,6 +22,11 @@ body {
 .photo {
     width: 150px;
     height: 150px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.photo.enlarged {
+    transform: scale(2); /* Fotoğrafları iki kat büyüt */
 }
 
 .buttons {
@@ -40,6 +45,12 @@ button {
 }
 
 #heart {
-    font-size: 50px;
+    font-size: 100px; /* Kalbin büyüklüğünü ayarlayın */
     margin-top: 20px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.show-heart {
+    opacity: 1;
 }
