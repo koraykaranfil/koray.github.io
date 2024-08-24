@@ -1,5 +1,5 @@
 document.getElementById('yes').addEventListener('click', function() {
-    // Kalbi göster
+    // Sadece kalbi göster
     const heart = document.getElementById('heart');
     heart.classList.add('show-heart');
 });
