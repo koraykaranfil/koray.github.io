@@ -22,7 +22,7 @@ body {
 }
 
 .photo {
-    width: 300px; /* Fotoğrafların başlangıç boyutunu iki kat yapıyoruz */
+    width: 300px; /* Fotoğrafların başlangıç boyutunu belirliyoruz */
     height: 300px;
 }
 
