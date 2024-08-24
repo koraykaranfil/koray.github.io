@@ -24,8 +24,8 @@ body {
 }
 
 .photo {
-    width: 300px; /* Fotoğrafların başlangıç boyutunu belirliyoruz */
-    height: 300px;
+    width: 200px; /* Fotoğrafların başlangıç boyutunu belirliyoruz */
+    height: 200px;
 }
 
 .heart {
