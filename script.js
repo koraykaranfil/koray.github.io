@@ -1,5 +1,13 @@
 document.getElementById('yes').addEventListener('click', function() {
-    document.getElementById('heart').classList.remove('hidden');
+    // Kalbi göster
+    const heart = document.getElementById('heart');
+    heart.classList.add('show-heart');
+    
+    // Fotoğrafları büyüt
+    const photos = document.querySelectorAll('.photo');
+    photos.forEach(photo => {
+        photo.classList.add('enlarged');
+    });
 });
 
 document.getElementById('no').addEventListener('mouseover', function() {
